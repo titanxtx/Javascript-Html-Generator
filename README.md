@@ -1,7 +1,7 @@
 # Javascript-Html-Generator
 Generate html from javascript data structures
 Example:
-`
+```
 var htmlgen=new htmlgen();
 var tmp={type:'div',settings:{className:'container'},ext:{type:'table',settings:{className:'tbx setx'},tnodes:[
             {r:1,c:1,settings:{style:{border:'1px solid black',display:'none'}},ext:{type:'table',settings:{className:'tbx setx'},tnodes:[
@@ -19,4 +19,4 @@ var tmp={type:'div',settings:{className:'container'},ext:{type:'table',settings:
                 {r:1,c:7,ext:{type:'div',settings:{className:'nav_sections'},ext:{type:'span',ext:{type:'textnode',text:'test7'}}}}
             ]}}]}};
  document.body.appendChild(htmlgen.generator(dx));
-`
+```
