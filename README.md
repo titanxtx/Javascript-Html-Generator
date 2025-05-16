@@ -18,5 +18,5 @@ var tmp={type:'div',settings:{className:'container'},ext:{type:'table',settings:
                 {r:1,c:6,ext:{type:'div',settings:{className:'nav_sections'},ext:{type:'span',ext:{type:'textnode',text:'test6'}}}},
                 {r:1,c:7,ext:{type:'div',settings:{className:'nav_sections'},ext:{type:'span',ext:{type:'textnode',text:'test7'}}}}
             ]}}]}};
- document.body.appendChild(htmlgen.generator(dx));
+ document.body.appendChild(htmlgen.generator(tmp));
 ```
